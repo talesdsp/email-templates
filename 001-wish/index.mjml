@@ -1,0 +1,272 @@
+<mjml version="3.3.3">
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" />
+      <mj-class name="price" font-size="26px" padding="0px" inner-padding="10px 25px" color="#2fb7ec" background-color="transparent" font-family="serif" />
+
+      <mj-class name="gift" background-color="#2fb7ec" font-size="20px" padding="0px" inner-padding="10px 25px" width="600px" border-radius="5px" text-decoration="underline" />
+      <mj-class name="offer" background-color="transparent" font-size="28px" padding="0px" inner-padding="0px" color="#2fb7ec" font-family="serif" />
+      <mj-class name="buy" width="600px" background-color="#2fb7ec" font-size="28px" padding="0px" inner-padding="20px 0" border-radius="0" />
+      <mj-class name="download" background-color="transparent" font-size="20px" padding="0px" width="100%" />
+
+      <mj-class name="block" background-color="#fff" />
+      <mj-class name="letter" border-radius="8px 8px 0 0" background-color="#fff" />
+      <mj-class name="primary" background-color="#2fb7ec" />
+      <mj-wrapper padding="20px 0" />
+      <mj-all font-family="Open Sans, sans-serif" />
+    </mj-attributes>
+
+
+    <mj-style inline="inline">
+      img {
+        width: 100%;
+      }
+
+      table {
+        border-collapse: collapse !important;
+      }
+
+      .collapse,
+      .collapse div,
+      .collapse td,
+      .collapse table {
+        border-collapse: collapse;
+        padding: 0;
+      }
+
+      a {
+        color: #888;
+        cursor: pointer;
+      }
+
+      .space {
+        padding-bottom: 20px;
+      }
+
+      .nav a {
+        color: #000;
+        font-size: 16px;
+        text-decoration: none;
+      }
+
+      .nav td {
+        padding: 10px 20px !important;
+      }
+
+
+      .line-through {
+        padding-left: 20px;
+        text-decoration: none;
+        text-decoration: line-through;
+        font-weight: 400;
+        font-size: 16px;
+        color: #888;
+      }
+
+      .text-primary,
+      a.text-primary {
+        color: #2fb7ec;
+        font-weight: 300;
+        font-family: serif;
+      }
+
+      .big {
+        font-size: 28px;
+      }
+
+      .medium {
+        font-size: 21px;
+      }
+
+      .footer div,
+      .footer a,
+      .footer {
+        font-size: 13px !important;
+        color: #888 !important;
+        font-family: "Trebuchet MS", sans-serif !important;
+        line-height: 25px !important;
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#eee">
+    <!--  LOGO  -->
+    <mj-section mj-class="block primary" css-class="collapse">
+      <mj-column>
+        <mj-image align="center" width="100px" src="https://ci6.googleusercontent.com/proxy/QvjahSniNY7ofs_63paA4o8uUfGZTq8pY15mBPiK6wLg67tKuHI8VftE1iCzj_m7xFDDEpvr_jcyA1px9qCW5w4hLG7zCfF2JRqBHIhxvO-VVVEqWZl-Wkmq1g=s0-d-e1-ft#http://main.cdn.wish.com/latest/img/email/remix/logos/wish.png?v=c771013">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    <!--  END LOGO  -->
+
+
+    <mj-section mj-class="block" css-class="nav">
+      <mj-column>
+        <mj-text>
+          <a href="#">Women</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          <a href="#">Men</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          <a href="#">Accessories</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          <a href="#">Decoration</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--  PROMO  -->
+    <mj-section css-class="collapse">
+      <mj-column css-class="collapse">
+        <mj-button mj-class="gift" href="#">Refer your friends & win up to $ 100. Share your code!</mj-button>
+      </mj-column>
+    </mj-section>
+    <!--  END PROMO  -->
+
+    <!--  NEW PRODUCTS  -->
+    <mj-wrapper mj-class="letter" css-class="collapse">
+      <mj-section mj-class="block">
+        <mj-column>
+          <mj-text>
+            <div class="big text-primary">Latest release</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-image alt="Huami Amazfit" href="#" src="https://ci5.googleusercontent.com/proxy/uvLqLMQ1ItnLRyVGx_dXoFISymY-VHRWMYZM7ylowzkFaXBL2q4uVLJV6KKboUHDt2G6tzTA4-r8Ct_w4JOX9o2HQFj0IIHZJG13FztwteeGrqGc0vF0R-NChYXlgnpVaWycmze-s86XsD1gvxxmMo0j=s0-d-e1-ft#https://contestimg.wish.com/api/image/fetch?contest_id=5e9536b995efff284cb28694&w=440&h=440&m=2"></mj-image>
+          <mj-button mj-class="price" href="#">$27<span class="line-through">$80</span></mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-image alt="Smart Watch" href="#" src="https://ci6.googleusercontent.com/proxy/OMWo7ID0DwaAo7WSyZN79K5NLfo1xzyDNXocXNMjJyju1OwOwbIZVcdk2p6XTUEebzecGqroHiX7m4RNjhRKqF3UMKq6zeX1oBRbUMaT7w2OtAnRQ9Ug24YWvqO52xVGHyVSZlD_7iOkoLpO6R4-LYjw=s0-d-e1-ft#https://contestimg.wish.com/api/image/fetch?contest_id=5e8822e32418634123ed0bb4&w=440&h=440&m=2"></mj-image>
+          <mj-button mj-class="price" href="#">$27<span class="line-through">$80</span></mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section padding="0" css-class="collapse">
+      <mj-column padding="0" css-class="collapse">
+        <mj-button mj-class="buy" href="#" css-class="collapse">
+          Buy now!
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" border-radius=" 0 0 8px 8px">
+    </mj-section>
+
+    <!--  END NEW PRODUCTS  -->
+
+    <mj-section></mj-section>
+
+    <!--  RECOMMENDATION  -->
+    <mj-wrapper mj-class="letter" css-class="collapse">
+      <mj-section mj-class="block">
+        <mj-column>
+          <mj-text>
+            <div class="big text-primary">Recommended for you</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="block">
+        <mj-column mj-class="block">
+          <mj-image alt="phone" href="#" src="https://ci3.googleusercontent.com/proxy/NTQH3fHXZiPmZzNEQPP9PoDcq1yUpPjGx6yGbaygz5MqtxN1qydqho4s28cBwmUkISMt9b4iq4N3AKP0xSN9K2gM-e5PsL8CvnrWl2h5gkQEpR94-PCiY7eaKPvKfs-4hXgTU9D6eUUkIP5gasONeJlS=s0-d-e1-ft#https://contestimg.wish.com/api/image/fetch?contest_id=5e71dd361bcf385654e84750&w=440&h=440&m=2">
+          </mj-image>
+          <mj-button mj-class="price" href="#">$27<span class="line-through">$80</span></mj-button>
+        </mj-column>
+
+        <mj-column mj-class="block">
+          <mj-image alt="ps4 controllers" href="#" src="https://ci3.googleusercontent.com/proxy/QDfsKYwXZhJWhRhf8Dnt852vQcIjSSZSLCabm4warpwE72MHPsRZOBLnS7CY7IB_DJkVs9VXoqghg6oXF6z1yvcOXiBlkNGV6h6ar-IexwuWnHfbFZSaIDy564QT_JPr-ay6hFRXx9rdjtdcAQD_Aj60=s0-d-e1-ft#https://contestimg.wish.com/api/image/fetch?contest_id=5e5f19f15e64592109e9492f&w=440&h=440&m=2"></mj-image>
+          <mj-button mj-class="price" href="#">$27<span class="line-through">$80</span></mj-button>
+        </mj-column>
+
+        <mj-column mj-class="block">
+          <mj-image alt="pc gamer" href="#" src="https://contestimg.wish.com/api/webimage/5d14691ef948122edfe8a519-0-feed?cache_buster=10ed044d1dcdf4d69b0ffe4578a8b918"></mj-image>
+          <mj-button mj-class="price" href="#">$27<span class="line-through">$80</span></mj-button>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <mj-section padding="0" css-class="collapse">
+      <mj-column padding="0" css-class="collapse">
+        <mj-button mj-class="buy" href="#" css-class="collapse">
+          Buy now!
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" border-radius=" 0 0 8px 8px">
+    </mj-section>
+
+
+    <!--  END RECOMMENDATION  -->
+
+
+    <mj-section></mj-section>
+
+
+    <!--  MOBILE APP -->
+    <mj-section mj-class="block primary">
+      <mj-column vertical-align="middle" width="40%">
+        <mj-button mj-class="download" href="#">
+          Download our app
+        </mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle" width="10%">
+        <mj-image href="#" src="https://ci6.googleusercontent.com/proxy/Ajw0bX-o0zOEtC2kZwOnn3RMOMN8ISba2dp6DekYugcUSNf3nQKf_7Batn3IqlsVJOv2eyjMgEB_Ril2_nrvG-o8wxe9hORCKv1eyXZrgj_Awg1VgHNuGYVQxdM_kDf5D9A1e2eCN8y5nQ=s0-d-e1-ft#http://main.cdn.wish.com/latest/img/email/remix/components/right_arrow_2x.png?v=a0d0f13"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image href="#" src="https://ci3.googleusercontent.com/proxy/A4cGq2mesKkJ1HQ1eOL54jbMzpKFUphXcRZQdENwdkN8wardKne12RcJmHPf5xpm6fYGhvbB5K-Z_V8UlhN2XR8DvRGM0e4m1rQSw1TcBC0HXiPaGQs_uP_8yAhCupU5wkH0HlCNQJOx1-BSsw=s0-d-e1-ft#http://main.cdn.wish.com/latest/img/mobile_download_page/banner_google_equal.png?v=62cb513"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image href="#" src="https://ci4.googleusercontent.com/proxy/zWXDNvTkM_A4CG4us1M_9XGytK0-sLs_b2fKZ9SUXjrsrWhYhR0OSmFEUJgWJva2-fJXlN0SX_bX-gdZNQCQKjc8Ovb3AHXtcufH2mho62DUH-0a7NBhnohX87jJ3iAtKfLmvUU7bRD6bsut=s0-d-e1-ft#http://main.cdn.wish.com/latest/img/mobile_download_page/banner_apple_equal.png?v=61ed113"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!--  END MOBILE APP -->
+
+    <mj-section>
+    </mj-section>
+
+
+    <!--  FOOTER -->
+    <mj-section css-class="footer">
+      <mj-column>
+
+        <mj-text>
+          Email sent from an automated adress, please contact us on
+          <a href="#">support@wish.com.</a>
+        </mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="#d4d4d4" padding="20px" />
+
+
+        <mj-text>
+          1 Sansome St., 40th Floor, San Francisco, CA 94104 - USA
+        </mj-text>
+
+        <mj-text>
+          You are subscribed to Wish newsletter.
+          <a href="#">Cancel signature</a>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+    <!--  END FOOTER -->
+
+    <mj-section>
+    </mj-section>
+
+  </mj-body>
+</mjml>
